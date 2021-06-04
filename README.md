@@ -13,16 +13,17 @@ This library can do the following things for you
 2. How to integrate new online Databases <br>
 3. Aggregation of data <br>
 4. Columns in each Table ( panda's dataframe ) <br>
-***
+
+<hr>
 
 <h3>Strategies: </h3>
-The folder Strategies has the following pre-made strategies:
-1. Dividend Capture : DividendCaptureFutureStock.py <br>
-2. Buying IronButterfly for a particular probability of winning : BuyIronButterfly.py <br>
-3. Buy Overnight Calls : OvernightCall.py <br>
-4. Pair Trade most stationary looking stock pairs: PairTrading_AllCorrelations.py <br>
-5. Pair Trade most stationary looking FX pairs: PairTrading_AllCorrelations_FX.py <br>
-6. Buy Straddles : Straddle.py <br>
+The folder Strategies has the following pre-made strategies: <br>
+1. Dividend Capture : `DividendCaptureFutureStock.py` <br>
+2. Buying IronButterfly for a particular probability of winning : `BuyIronButterfly.py` <br>
+3. Buy Overnight Calls : `OvernightCall.py` <br>
+4. Pair Trade most stationary looking stock pairs: `PairTrading_AllCorrelations.py` <br>
+5. Pair Trade most stationary looking FX pairs: `PairTrading_AllCorrelations_FX.py` <br>
+6. Buy Straddles : `Straddle.py` <br>
 
 <h3>Integrating new online Database:</h3>
 Integrating a databases like quandl/ nsepy/ yfinance is extremely simple you just need to create an adapter that  calls the other available databases and transform the response into the type "DataCell"
@@ -30,7 +31,7 @@ try to follow the examples: NSEpyMarketDataAdapter, YahooFinanceMarketDataAdapte
 These reside in DataFetcher\MarketDataAdapters
 
 <h3>Aggregation of data: </h3>
-The data is aggregated based on the following:
+The data is aggregated based on the following:<br>
 1. Symbol <br>
 2. SecurityType ( currently, stock, option, future, you can add more values here ) <br>
 3. ExpiryData (if any)<br>
@@ -42,7 +43,7 @@ To edit checkout "DataFetcher\DataAggregator\DataAggregateTypes.py"
 
 <h3>Columns in each Table</h3>
 Each cell you reach on the basis of the aggregation above will have a table which is a PANDAS DataFrame.
-Currently it contains following values ( :
+Currently it contains following values: <br>
 1. Date<br>
 2. Open<br>
 3. High<br>
