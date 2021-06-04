@@ -8,7 +8,7 @@ This library can do the following things for you
 5. Many inbuilt methods to calculate moving volatilities, mathematical manipulations
 6. You can set the data that you want to cache by adjusting the params for lookAhead days , and lookBackDays
 
-<h2> Table of Contents </h2>
+## Table of Contents 
 1. Strategies <br>
 2. How to integrate new online Databases <br>
 3. Aggregation of data <br>
