@@ -18,7 +18,7 @@ This library can do the following things for you
 
 <h3>Strategies: </h3>
 The folder Strategies has the following pre-made strategies: <br>
-1. Dividend Capture : `DividendCaptureFutureStock.py` <br>
+1. Dividend Capture : ```DividendCaptureFutureStock.py``` <br>
 2. Buying IronButterfly for a particular probability of winning : `BuyIronButterfly.py` <br>
 3. Buy Overnight Calls : `OvernightCall.py` <br>
 4. Pair Trade most stationary looking stock pairs: `PairTrading_AllCorrelations.py` <br>
