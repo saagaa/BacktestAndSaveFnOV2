@@ -15,7 +15,7 @@ These reside in DataFetcher\MarketDataAdapters
 
 <h3>Aggregation of data: </h3>
 The data is aggregated based on the following:
-1. Symbol
+1. Symbol \n
 2. SecurityType ( currently, stock, option, future, you can add more values here )
 3. ExpiryData (if any)
 4. OptionType (if)
