@@ -9,10 +9,10 @@ This library can do the following things for you
 6. You can set the data that you want to cache by adjusting the params for lookAhead days , and lookBackDays
 
 <h2> Table of Contents </h2>
-1. Strategies
-2. How to integrate new online Databases
-3. Aggregation of data
-4. Columns in each Table ( panda's dataframe )
+1. Strategies <br>
+2. How to integrate new online Databases <br>
+3. Aggregation of data <br>
+4. Columns in each Table ( panda's dataframe ) <br>
 
 <h3>Integrating new online Database:</h3>
 Integrating a databases like quandl/ nsepy/ yfinance is extremely simple you just need to create an adapter that  calls the other available databases and transform the response into the type "DataCell"
