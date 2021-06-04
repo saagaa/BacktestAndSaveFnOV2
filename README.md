@@ -13,6 +13,16 @@ This library can do the following things for you
 2. How to integrate new online Databases <br>
 3. Aggregation of data <br>
 4. Columns in each Table ( panda's dataframe ) <br>
+***
+
+<h3>Strategies: </h3>
+The folder Strategies has the following pre-made strategies:
+1. Dividend Capture : DividendCaptureFutureStock.py <br>
+2. Buying IronButterfly for a particular probability of winning : BuyIronButterfly.py <br>
+3. Buy Overnight Calls : OvernightCall.py <br>
+4. Pair Trade most stationary looking stock pairs: PairTrading_AllCorrelations.py <br>
+5. Pair Trade most stationary looking FX pairs: PairTrading_AllCorrelations_FX.py <br>
+6. Buy Straddles : Straddle.py <br>
 
 <h3>Integrating new online Database:</h3>
 Integrating a databases like quandl/ nsepy/ yfinance is extremely simple you just need to create an adapter that  calls the other available databases and transform the response into the type "DataCell"
