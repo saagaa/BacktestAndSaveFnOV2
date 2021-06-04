@@ -21,6 +21,7 @@ The data is aggregated based on the following:
 4. OptionType (if)
 5. StrikePrice (if)
 6. Granularity (minute, hourly, daily, you can add more values in this enum )
+
 To edit checkout "DataFetcher\DataAggregator\DataAggregateTypes.py"
 
 <h3>Columns in each Table</h3>
@@ -42,6 +43,7 @@ Currently it contains following values ( :
 14. Underlying
 15. Last
 16. PremiumTurnover
+
 To edit checkout "DataFetcher\DataAggregator\DataOptions.py"
 
 
