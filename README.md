@@ -8,12 +8,12 @@ This library can do the following things for you
 5. Many inbuilt methods to calculate moving volatilities, mathematical manipulations
 6. You can set the data that you want to cache by adjusting the params for lookAhead days , and lookBackDays
 
-Integrating new online Database:
+<h2>Integrating new online Database:</h2>
 Integrating a databases like quandl/ nsepy/ yfinance is extremely simple you just need to create an adapter that  calls the other available databases and transform the response into the type "DataCell"
 try to follow the examples: NSEpyMarketDataAdapter, YahooFinanceMarketDataAdapter.
 These reside in DataFetcher\MarketDataAdapters
 
-Aggregation of data:
+<h3>Aggregation of data: </h3>
 The data is aggregated based on the following:
 1. Symbol
 2. SecurityType ( currently, stock, option, future, you can add more values here )
@@ -23,6 +23,7 @@ The data is aggregated based on the following:
 6. Granularity (minute, hourly, daily, you can add more values in this enum )
 To edit checkout "DataFetcher\DataAggregator\DataAggregateTypes.py"
 
+<h3>Columns in each Table</h3>
 Each cell you reach on the basis of the aggregation above will have a table which is a PANDAS DataFrame.
 Currently it contains following values ( :
 1. Date
