@@ -10,9 +10,9 @@ This library can do the following things for you
 
 ## Table of Contents 
 1. [Strategies](#strategies) <br>
-2. [How to integrate new online Databases](#integrating-new-online-database:)<br>
-3. Aggregation of data <br>
-4. Columns in each Table ( pandas dataframe ) <br>
+2. [How to integrate new online Databases](#integrating-new-online-database)<br>
+3. [Aggregation of data](#aggregation-of-data) <br>
+4. [Columns in each Table ( pandas dataframe )](#columns-in-each-table) <br>
 
 <hr>
 
