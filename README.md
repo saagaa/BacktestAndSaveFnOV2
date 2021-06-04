@@ -1,5 +1,6 @@
 # Library for Backtesting strategies and saving queried data for future use
 
+The purpose of this Library is to make simple APIs that can query the data from internet and save it to local DB. The API will automatically pull data from the DB if it has been pulled before. 
 This library can do the following things for you
 1. Query data from NSE/Yahoo and easy to add new data sources
 2. Save the data to a local DB
