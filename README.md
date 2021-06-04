@@ -12,7 +12,7 @@ This library can do the following things for you
 1. [Strategies](#strategies) <br>
 2. [How to integrate new online Databases](#integrating-new-online-database)<br>
 3. [Aggregation of data](#aggregation-of-data) <br>
-4. [Columns in each Table ( pandas dataframe )](#columns-in-each-table) <br>
+4. [Columns in each Table ( pandas dataframe )](#columns-in-each-table-pandas-dataframe) <br>
 
 <hr>
 
