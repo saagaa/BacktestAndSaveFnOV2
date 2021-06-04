@@ -9,8 +9,8 @@ This library can do the following things for you
 6. You can set the data that you want to cache by adjusting the params for lookAhead days , and lookBackDays
 
 ## Table of Contents 
-1. [Strategies](#Strategies:) <br>
-2. [How to integrate new online Databases](#Integrating-new-online-Database:)<br>
+1. [Strategies](#strategies) <br>
+2. [How to integrate new online Databases](#integrating-new-online-database:)<br>
 3. Aggregation of data <br>
 4. Columns in each Table ( pandas dataframe ) <br>
 
